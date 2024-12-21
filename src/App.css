@@ -1,0 +1,55 @@
+*{
+    margin: 2px;
+    padding: 0;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 0.5px solid #ebebeb;
+}
+.logo{
+    font-weight: 700;
+    font-size: 2.1rem
+}
+
+.navbar ul{
+    padding: 10px 30px;
+}
+
+.navbar ul li{
+    display: inline-flex;
+    padding: 5px 50px;
+    font-size: 2rem;
+}
+
+.navbar button{
+    background-color: black;
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 1rem 1.5rem;
+    border-radius: 1.5rem;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+}
+
+.container{
+    max-width: 1000px;
+    width:100%;
+    margin: 0 auto;
+}
+
+.navbar a{
+    color: #000;
+}
+
+.navbar a.active{
+    color: teal;
+}
+
+.userdata{
+    border-bottom: 10px;
+    border-bottom: solid 2px #ccc;
+    padding: 20px 0;
+}
